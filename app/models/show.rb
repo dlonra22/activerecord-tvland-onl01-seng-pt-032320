@@ -6,4 +6,5 @@ class Show < ActiveRecord::Base
     self.characters.collect do |c|
       c.actor.full_name
     end
+  end
 end
